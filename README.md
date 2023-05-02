@@ -1,3 +1,3 @@
-# aind-capsule-template
+# Get Your Brain Together Hackathon 2023
 
-Basic structure of a capsule to be customized as needed.
+This repository contains startup code to show hackathon participants how to perform basic processing of example data.
