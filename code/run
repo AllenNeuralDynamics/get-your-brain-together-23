@@ -8,3 +8,12 @@ jupyter nbconvert \
   --to notebook \
   --execute RegisterToCCF.ipynb \
   --debug
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --to notebook \
+  --execute ApplyTransformToPointSet.ipynb \
+  --debug
+

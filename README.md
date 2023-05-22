@@ -16,6 +16,10 @@ The following notebooks are available:
 
 - `LocalFetchFromS3`: Demonstrates how to fetch stitched SmartSPIM image data from AWS S3 if working outside of the CodeOcean platform.
 
+- `ApplyTransformToPointSet`: Demonstrates how to apply the transform stack result from the `RegisterToCCF` image registration pipeline to point set data.
+
+![SmartSPIM point set annotation](code/images/point-set-annotation.png)
+
 ## Tips and Tricks
 
 We will collect useful tips for working with SmartSPIM data and registration pipelines here during the hackathon. If you find a useful hint during your work, let us know to share it here!
