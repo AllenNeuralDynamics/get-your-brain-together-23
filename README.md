@@ -32,7 +32,16 @@ You may initially see ITKWidgets output as text such as the below:
 
 > <itkwidgets.viewer.Viewer at 0x7f171826b310>
 
-Due to a compatibility issue, you may need to launch a new CodeOcean tab with a given notebook in order for ITKWidgets views to render correctly. Follow these steps:
+Due to a compatibility issue, you may need to launch a new CodeOcean tab with a given notebook in order for ITKWidgets views to render correctly.
+
+Through JupyterLab:
+
+1. Launch JupyterLab in CodeOcean
+2. Navigate to the "Help" tab and launch a "classic" session
+3. Click on the notebook to open it in a new browser tab
+4. Run your notebook and view results in an ITKWidgets view
+
+Through Jupyter Notebook:
 
 1. Launch an interactive session in CodeOcean and run your notebook
 2. Click on the "Jupyter" logo on the top left to return to the Jupyter start page
