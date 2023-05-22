@@ -11,4 +11,5 @@ RUN pip install -U --no-cache-dir \
     itk==5.3.0 \
     itk-elastix==0.17.1 \
     numpy==1.24.3 \
-    ome-zarr==0.7.1
+    ome-zarr==0.7.1 \
+    itkwidgets[all]==1.0a33

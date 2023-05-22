@@ -26,4 +26,19 @@ We will collect useful tips for working with SmartSPIM data and registration pip
 
 ## Frequently Asked Questions
 
-Check back soon for answers to common questions.
+### Why does my ITKWidgets inline view display as text?
+
+You may initially see ITKWidgets output as text such as the below:
+
+> <itkwidgets.viewer.Viewer at 0x7f171826b310>
+
+Due to a compatibility issue, you may need to launch a new CodeOcean tab with a given notebook in order for ITKWidgets views to render correctly. Follow these steps:
+
+1. Launch an interactive session in CodeOcean and run your notebook
+2. Click on the "Jupyter" logo on the top left to return to the Jupyter start page
+3. Click on the "Running" tab to see the running notebook
+4. Click on the notebook to open it in CodeOcean in a new browser tab
+5. Run your notebook and view results in an ITKWidgets view
+
+![ITKWidgets SmartSPIM Inline View](code/images/itkwidgets-view.png)
+
