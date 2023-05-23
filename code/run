@@ -17,3 +17,11 @@ jupyter nbconvert \
   --execute ApplyTransformToPointSet.ipynb \
   --debug
 
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --to notebook \
+  --execute ApplyTransformToLabelImage.ipynb \
+  --debug
+

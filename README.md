@@ -20,6 +20,10 @@ The following notebooks are available:
 
 ![SmartSPIM point set annotation](code/images/point-set-annotation.png)
 
+- `ApplyTransformToLabelImage`: Demonstrates how to apply the transform stack result from the `RegisterToCCF` image registration pipeline to label image data.
+
+![SmartSPIM label region of interest annotation, before and after transformation](code/images/transform-label-map.png)
+
 ## Tips and Tricks
 
 We will collect useful tips for working with SmartSPIM data and registration pipelines here during the hackathon. If you find a useful hint during your work, let us know to share it here!
